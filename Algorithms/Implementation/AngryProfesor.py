@@ -32,5 +32,5 @@ def main():
         amount = getAmount(early) + getAmount(onTime)
         canceled = isCanceled(amount, k)
         print(cancel(canceled))
-        
+main()        
     
