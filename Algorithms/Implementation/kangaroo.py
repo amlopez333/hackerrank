@@ -9,7 +9,7 @@ def isReacheable(x1,v1,x2,v2):
             newX1 = jump(newX1, v1)
             newX2 = jump(newX2, v2)
         
-        if(newX1 and newX2):
+        if(newX1 == newX2):
             return True
     return False
 
